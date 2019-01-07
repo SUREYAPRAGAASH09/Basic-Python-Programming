@@ -6,7 +6,7 @@ def printSecondPrimeNUmber(N):
     while(count < 2):
         if (IsPrime.Isprime(i)):
             print (i)
-            i = i + 1
+            i = i + 2
             
             count = count + 1
         i = i + 1
