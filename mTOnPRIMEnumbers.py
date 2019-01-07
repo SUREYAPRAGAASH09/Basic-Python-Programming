@@ -12,7 +12,7 @@ def isprime(N):
 def inbe(m,n):
     for i in range(m,n):
         if (isprime(i)):
-            print (i)
+            print (i) 
 
 #inbe(10,1)
 m = int(input("enter the 1st numbers    "))
