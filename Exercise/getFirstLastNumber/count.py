@@ -1,4 +1,14 @@
-To count the no of digits given in a number
+Problem Statement :
+==================== 
+      To count the no of digits given in a number
+Input :
+========  
+   Integer 
+Output :
+=========
+    Count all the integers - integer 
+Code :
+======= 
  def countnumbers(n): 
      count = 0
      while (n>0):
