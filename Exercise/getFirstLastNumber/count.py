@@ -16,13 +16,14 @@ Code :
          count += 1
          n = int(n) / 10
          n = int(n)
-
      return count
-another variant of solving the above problem
-def countnumbers(n):
-    n = list(str(n))
-    n = len(n)
-    return n
+Another Method :
+=================      
+#another variant of solving the above problem
+def countnumbers(num):
+    n = list(str(num))
+    n = len(num)
+    return num
     
 
 #print(countnumbers(1234512345))
