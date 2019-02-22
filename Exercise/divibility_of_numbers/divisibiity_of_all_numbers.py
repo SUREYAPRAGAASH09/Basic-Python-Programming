@@ -1,12 +1,21 @@
-#this function is used to check if all the digits of a number N is divisible by N
-def divisibleofallNumbers(N):
-    #sum = 0
-    while(N>0):
-        temp = N % 10
-        if (N % temp == 0):
-            N = N / 10
-        else:
-            return "the Number can't be divided"
-    return "the Number can be divisible all the integers"  
+Problem Statement :
+===================    
+    this function is used to check if all the digits of a number N is divisible by N
+Input :
+=======
+    Integer 
+Output :
+========
+    Flag - Bool
+Code :
+=======    
+def divisibleofallNumbers(Num):
+    flag = False 
+    while(Num>0):
+        temp = Num % 10
+        if (Num % temp == 0):
+            flag = True
+        num = num / 10
+    return  flag  
 
 
