@@ -20,10 +20,8 @@ Code :
 Another Method :
 =================      
 #another variant of solving the above problem
-def countnumbers(num):
-    n = list(str(num))
-    n = len(num)
-    return num
+def countnumbers(num): 
+    return len(list(str(num)))
     
 
-#print(countnumbers(1234512345))
+ 
